@@ -5,6 +5,10 @@ app.get('/', (req, res) => res.json({ msg: 'Welcome to contact manager' }));
 
 //Connect DB
 connectDB();
+
+//Init Middleware
+app.use(express.json({ extended: false }));
+
 //Define Routes
 
 app.use('/api/users', require('./routes/users'));
