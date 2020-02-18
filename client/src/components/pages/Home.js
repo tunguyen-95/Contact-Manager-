@@ -1,5 +1,4 @@
 import React from 'react';
-
 import ContactForm from '../contacts/ContactForm';
 import ContactFilter from '../contacts/ContactFilter';
 import Contacts from '../contacts/Contacts';
